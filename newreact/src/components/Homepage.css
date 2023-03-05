@@ -1,0 +1,25 @@
+
+.homepage-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.homepage-title {
+    margin-top: 50px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.homepage-datepicker {
+    margin-top: 50px;
+}
+
+.homepage-container img {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .homepage-container img:hover {
+    transform: scale(1.1);
+  }
