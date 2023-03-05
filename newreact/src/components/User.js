@@ -85,6 +85,8 @@ class User extends React.Component {
 
           <a><Link to= "/user/balance"> balance </Link></a>
           <Link to= "/user/coupon">coupons </Link>
+          <p>Owned Coupon: [MLH, Maidsonboba]</p>
+        
         </div>
       </div>
     );

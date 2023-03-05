@@ -14,7 +14,7 @@ class Business extends React.Component {
       address: '', 
       description:'', 
       image: '', 
-      
+        
     };
   }
   

@@ -9,7 +9,7 @@ const navigate = useNavigate();
   const [hasError, setHasError] = useState(false);
   const [location, setlocation] = useState("");
   const [email, setemail] = useState("");
-  const [bs, setbs] = useState(false);
+  const [bs] = useState(false);
   const handleUsernameChange = (event) => {
     setUsername(event.target.value);
   };
@@ -34,6 +34,9 @@ const navigate = useNavigate();
     console.log(
       `I am a seller:${bs}\nUsername:${name}\nEmail: ${email}\nlocation: ${location}\nPassword: ${password}`
     );
+    
+    if(bs==true)  navigate(resolvePath("/business"), {replace: true});
+    else navigate(resolvePath("/user"), {replace: true});
     fetch("http://localhost:3000/login", {
       method: "POST",
       headers: {
