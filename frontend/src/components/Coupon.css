@@ -1,0 +1,45 @@
+.coupon-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .navigation {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+  }
+  
+  .navigation li {
+    margin: 0 10px;
+  }
+  
+  .navigation a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .coupon-title {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .coupon-info {
+    margin-top: 40px;
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
+  
+  .coupon-info h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .coupon-info p {
+    margin: 0;
+    font-size: 16px;
+  }
